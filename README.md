@@ -1,9 +1,5 @@
 # Heart Disease Prediction with ANN 🚀
 
-## 🚀 Dashboard  
-🔗 **Live Demo:** [Streamlit Dashboard](https://dlm-ann-mwywtgxhncktibrtpnadkz.streamlit.app/)
-
-
 ## 📌 Project Overview
 This project focuses on **hyperparameter tuning** for an **Artificial Neural Network (ANN)** using **Streamlit** to visualize model performance. The model is trained to predict **heart disease risk** (0 = No Disease, 1 = Disease) based on the **Heart Disease UCI dataset**.
 
