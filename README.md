@@ -1,9 +1,9 @@
-# Heart Disease Prediction with ANN 🚀
+# Heart Disease Prediction with ANN 
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on **hyperparameter tuning** for an **Artificial Neural Network (ANN)** using **Streamlit** to visualize model performance. The model is trained to predict **heart disease risk** (0 = No Disease, 1 = Disease) based on the **Heart Disease UCI dataset**.
 
-## 📂 Project Structure
+##  Project Structure
 ```
 📦 Heart Disease ANN
 ├── 📜 streamlit.py                     # Main Streamlit dashboard for visualization
@@ -14,7 +14,7 @@ This project focuses on **hyperparameter tuning** for an **Artificial Neural Net
 └── 📜 README.md                        # Project documentation (this file)
 ```
 
-## 📝 Dataset Information
+##  Dataset Information
 We use **`heart_disease_uci.csv`**, which contains various patient health attributes. The model predicts **`num`**:
 
 | Column Name | Description |
@@ -43,16 +43,16 @@ The **hyperparameter tuning** is implemented via **Streamlit's sidebar** with th
 - **Regularization Techniques**: L1/L2 regularization, DropConnect, Batch Normalization.
 - **Gradient Descent Types**: Batch GD, Stochastic GD, Mini-Batch GD.
 
-## 📊 Model Performance Visualization
+##  Model Performance Visualization
 After training, the Streamlit dashboard provides:
-1. **Model Summary** 📜
-2. **Training History Graph** 📈
-3. **Confusion Matrix (Heatmap)** 🔥
-4. **Classification Report (Precision, Recall, F1-score)** 🏆
-5. **ROC Curve (AUC Score)** ⚡
-6. **Training & Testing Time** ⏳
+1. **Model Summary** 
+2. **Training History Graph** 
+3. **Confusion Matrix (Heatmap)** 
+4. **Classification Report (Precision, Recall, F1-score)** 
+5. **ROC Curve (AUC Score)** 
+6. **Training & Testing Time** 
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 1. **Install Dependencies:**
     ```sh
     pip install -r requirements.txt
@@ -63,17 +63,17 @@ After training, the Streamlit dashboard provides:
     ```
 3. **Interact with the Sidebar** to modify hyperparameters and visualize results.
 
-## 📌 Example Output (Confusion Matrix & ROC Curve)
+##  Example Output (Confusion Matrix & ROC Curve)
 The dashboard dynamically generates:
 - Confusion Matrix:
   ![Confusion Matrix](confusion_matrix.png)
 - ROC Curve:
   ![ROC Curve](roc_curve.png)
 
-## 📚 Future Enhancements
+##  Future Enhancements
 - Improve feature selection and engineering.
 - Experiment with different architectures (CNN, RNN, Transformers).
 - Deploy the model using **Streamlit Cloud**.
 
 ---
-Made with ❤️ by AI Enthusiasts 🚀
+Made with ❤ by AI Enthusiasts 
